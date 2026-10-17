@@ -1,0 +1,16 @@
+print("Hi, my name is Wali")
+name = input("What is your name?")
+print("Wow, " + name + " is a cool name")
+
+age = int(input("How old are you?"))
+
+if age <= 16:
+    print("Wow, you're really young")
+elif 17 <= age <= 35:
+    print("You're at an average age")
+elif 36 <= age <= 55: 
+    print("You're not toooooo old")
+elif age > 55:
+    print("You're pretty old")
+color = input("What is your favorite color?")
+print(color + " is a good color")
