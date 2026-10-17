@@ -1,0 +1,21 @@
+import random
+
+answer = random.randint(1,100)
+
+for i in range(7):
+    guess = input("Guess a number 1~100.")
+    guess = int(guess)
+    if guess == answer:
+        print("Correct")
+        break
+    elif guess > answer:
+        print("The answer is smaller.")
+    elif guess < answer:
+        print("The answer is larger.")
+
+if guess == answer:
+    print(f"Great job! You get $1000.")
+else:
+    print(f"Game Over. You owe $1000. The answer is:")
+    print(answer)
+
